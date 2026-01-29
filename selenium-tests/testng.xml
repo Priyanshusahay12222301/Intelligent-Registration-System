@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Intelligent Registration System Test Suite" verbose="1">
+    <test name="Negative Scenario Tests">
+        <classes>
+            <class name="com.registration.tests.NegativeScenarioTest"/>
+        </classes>
+    </test>
+    
+    <test name="Positive Scenario Tests">
+        <classes>
+            <class name="com.registration.tests.PositiveScenarioTest"/>
+        </classes>
+    </test>
+    
+    <test name="Logic Validation Tests">
+        <classes>
+            <class name="com.registration.tests.LogicValidationTest"/>
+        </classes>
+    </test>
+</suite>
